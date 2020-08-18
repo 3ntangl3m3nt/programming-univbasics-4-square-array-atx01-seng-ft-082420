@@ -1,3 +1,8 @@
 def square_array(array)
-  # your code here
+i = 0
+sqr_numbers = []
+while i < array.length do
+  sqr_numbers.push([array[i]])
+  i += 1
+end
 end
